@@ -14,14 +14,16 @@
 
 [https://empress.eco/app/files/](https://empress.eco/app/files/)
 
+</div>
 
-## Description
+
+## Welcome to Empress Files
 
 Empress Files is a versatile document sharing and management solution designed to facilitate secure and efficient file storage and collaboration across multiple platforms.
 
 ## Table of Contents
 
-- [Description](#description)
+- [Welcome to Empress Files](#welcome-to-empress-files)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
