@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Empress Files Logo" height="100">
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Logo" width="80" height="80">
+
   <h1 align="center">Empress Files: Secure, Efficient File Sharing & Collaboration</h1>
 </div>
 
