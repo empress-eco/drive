@@ -1,117 +1,92 @@
 <div align="center">
-    <a href="https://empress.eco/app/files/">
-        <img src="https://avatars.githubusercontent.com/u/46308912?s=96&v=4" height="50">
-    </a>
-    <h2>Empress Files</h2>
-    <p align="center">
-        <p>Simple, Secure, File Sharing.</p>
-    </p>
-
-[![CI](https://github.com/frappe/erpnext/actions/workflows/server-tests-mariadb.yml/badge.svg?event=schedule)](https://github.com/frappe/erpnext/actions/workflows/server-tests-mariadb.yml)
-[![Open Source Helpers](https://www.codetriage.com/frappe/erpnext/badges/users.svg)](https://www.codetriage.com/frappe/erpnext)
-[![codecov](https://codecov.io/gh/frappe/erpnext/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/erpnext)
-[![docker pulls](https://img.shields.io/docker/pulls/frappe/erpnext-worker.svg)](https://hub.docker.com/r/frappe/erpnext-worker)
-
-[https://empress.eco/app/files/](https://empress.eco/app/files/)
-
+  <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Empress Files Logo" height="100">
+  <h1 align="center">Empress Files: Secure, Efficient File Sharing & Collaboration</h1>
 </div>
 
+Empress Files is a robust document management solution that ensures secure file storage and seamless collaboration across multiple platforms. It's an ideal tool for businesses, teams, and individuals seeking a reliable and efficient system for managing and sharing files.
 
-## Welcome to Empress Files
+- [Explore the Docs](https://grow.empress.eco/)
+- [Report a Bug](https://github.com/empress-eco/files/issues)
+- [Request a Feature](https://github.com/empress-eco/files/issues)
 
-Empress Files is a versatile document sharing and management solution designed to facilitate secure and efficient file storage and collaboration across multiple platforms.
+## About The Project
 
-## Table of Contents
+Empress Files is a comprehensive solution that effectively caters to all your file storage and sharing needs. It brings security, convenience, and collaboration to your fingertips, making it an integral tool for any modern work setup.
 
-- [Welcome to Empress Files](#welcome-to-empress-files)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+### Key Features
+- **Multi-platform file upload and storage:** Store and access your files from anywhere, at any time.
+- **Flexible Viewing Options:** Choose between a list or grid view, with customizable sorting options.
+- **File Previews:** Preview various file formats, including images, videos, and PDFs, before opening or downloading.
+- **File and Folder Sharing:** Share files and folders securely with controlled permission management.
+- **Collaboration Tools:** Use the commenting functionality to collaborate on shared files.
+- **Favorites Feature:** Save important files to 'Favorites' for quick and easy access.
+- **Robust Search Functionality:** Find your files quickly and effortlessly with our powerful search feature.
+- **Real-time Document Editing:** Collaborate in real-time with team members on documents.
 
-## Installation
+### Built With
+Empress Files uses leading-edge web technologies to provide an efficient and user-friendly experience.
 
-To set up Empress Files locally, execute the following commands:
+## Getting Started
 
-```bash
-git clone https://github.com/frappe/drive.git
-```
+### Prerequisites
+You need to have Git and Node.js installed on your machine to set up Empress Files locally.
 
-```bash
-cd drive
-```
+### Installation
+To set up a development environment, follow these simple steps:
 
-```bash
-bench get-app drive
-```
+```sh
+# Clone the repository
+git clone https://github.com/empress-eco/files.git
 
-```bash
-bench new-site drive.site
-```
+# Navigate to the directory
+cd files
 
-```bash
-bench --site drive.site add-to-hosts
-```
+# Get the application
+bench get-app files
 
-```bash
-bench --site drive.site install-app drive
-```
+# Create a new site
+bench new-site files.site
 
-```bash
+# Add the site to hosts
+bench --site files.site add-to-hosts 
+
+# Install the application
+bench --site files.site install-app files
+
+# Start the application
 bench start
-```
 
-```bash
-cd apps/drive && yarn dev
+# Start the development server
+cd apps/files && yarn dev
 ```
-
-Then, open http://drive.site:8000/drive in your browser to access the app.
+Then, open http://files.site:8000/files in your browser to access the app.
 
 ## Usage
-
-Use Empress Files to manage your files on the cloud. With features like file preview, comments, favorites, and a robust search bar, you can easily store, access, and collaborate on documents.
-
-## Features
-
-* Upload and store files on multiple platforms.
-* List or Grid view with customizable sorting.
-* Previews for images, videos, PDFs, and more.
-* File and folder sharing with permission management.
-* Commenting on shared files.
-* Favorites for quick access.
-* Search functionality for easy file retrieval.
-* Real-time collaborative document editing.
+Empress Files simplifies file management on the cloud. With features like file preview, comments, favorites, and a robust search bar, storing, accessing, and collaborating on documents has never been easier.
 
 ## Contributing
+We welcome and appreciate contributions! Here's how you can contribute:
 
-Contributions are welcome! Here's how you can contribute:
+- Star the repository.
+- Report issues or suggest features.
+- Contribute to the code:
 
-* Star the repository.
-* Report issues or suggest features by filing an issue.
-* Follow the contribution guidelines as outlined:
-
-```bash
+```sh
+# Create your feature branch
 git checkout -b feature/AmazingFeature
-```
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-```bash
-git push origin feature/AmazingFeature
-```
 
-Then open a pull request for discussion and review.
+# Commit your changes
+git commit -m 'Add some AmazingFeature'
+
+# Push to the branch
+git push origin feature/AmazingFeature
+
+# Open a pull request
+```
+Please ensure your pull request adheres to the repository's contribution guidelines.
 
 ## License
-Empress Files is licensed under the GNU Affero General Public License v3.0.
+This project is licensed under the MIT License. Your contributions will also be licensed under the MIT License.
 
-## Support
-
-If you need help or want to discuss the project, please reach out through the issue tracker or contact us at support@example.com.
-
-Note: Empress Files is currently in beta. We welcome your feedback and contributions but please be aware of potential breaking changes.
-
-We extend our gratitude to all the contributors and resources that have made this project possible.
+## Acknowledgements
+We extend our heartfelt gratitude to all contributors, supporters, and especially the Empress Community for their foundational contributions. Your dedication and support have been pivotal in making this project what it is today.
